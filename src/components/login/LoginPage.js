@@ -86,7 +86,7 @@ class LoginPage extends Component {
           <Paper className={classes.paper}>
             <form onSubmit={this.onSubmit}>
               <div>
-                <span>Welcome to Easy POS</span>
+                <span><h1>KPFC</h1></span>
               </div>
 
               <ErrorMessage
