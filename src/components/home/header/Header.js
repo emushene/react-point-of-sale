@@ -75,7 +75,7 @@ class Header extends Component {
                 >
                   <MenuIcon />
                 </IconButton>
-                <span>Point Of Sale</span>
+                <span>KPFC Sales</span>
               </div>
             </div>
 

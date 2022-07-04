@@ -25,12 +25,12 @@ const styles = theme => ({
 
 class AddNew extends Component {
   initialData = {
-    productId: "pen",
-    vendorId: "mrlabs",
-    qty: "1",
-    price: "100",
-    paid: "100",
-    date: new Date()
+    productId: "",
+    vendorId: "",
+    qty: "",
+    price: "",
+    paid: "",
+    date: new Date(Date.now())
   };
 
   state = {
@@ -47,7 +47,7 @@ class AddNew extends Component {
   };
 
   async componentDidMount() {
-    this.setState({ isLoading: true });
+    this.setState({ isLoading: false });
 
     try {
       const stateToUpdate = {};
